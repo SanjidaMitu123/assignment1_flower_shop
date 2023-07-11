@@ -203,3 +203,29 @@ nav a {
     height: 35px;
     border-radius: 8px;
  } 
+
+ .footer{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+ }
+ .footer-title{
+    color:white;
+    font-size: 40px;
+    font-weight: 100;
+    padding-top: 70px;
+
+ }
+ .footer-p1 {
+    color:white;
+    margin-top: -30px;
+    font-size: 15px;
+    font-weight: 70px;
+ }
+ .footer-p2 {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 14px;
+    font-weight: 70px;
+    
+ }
