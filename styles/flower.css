@@ -55,6 +55,12 @@ nav a {
     align-items: center;
     justify-content: space-between;
 }
+.banner p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 15px;
+}
 .banner-content{
     max-width: 500px;
 }
@@ -87,8 +93,8 @@ nav a {
 
 .featured p {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 800;
+    font-size: 15px;
+    font-weight: 200;
     line-height: 30px;
 }
 .featured img {
@@ -228,4 +234,38 @@ nav a {
     font-size: 14px;
     font-weight: 70px;
     
+ }
+ .supportsection {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1015px;
+    height: 150px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    gap :50%;
+    padding-top: 70px;
+
+ }
+.supportsection img {
+    height: 50px;
+    weight : 40px;
+}
+ .supportsection-img1 {
+    padding-left: 220px;
+    padding-right: 190px;
+    
+ }
+ 
+ .supportsection a {
+    text-decoration: none;
+    color:rgba(39, 39, 39, 0.80);
+    font-size: 10px;
+    font-weight: 50px;
+ }
+ .suppporturl1 {
+    padding-left: 100px;
+    padding-right: 100px;
  }
