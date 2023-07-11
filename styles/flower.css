@@ -53,6 +53,10 @@ nav a {
     padding: 20px 20px 2px 100px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
 }
 .banner .main-picture {
     width: 500px;
@@ -64,3 +68,112 @@ nav a {
     font-weight: 400px;
 
 }
+/* main section style */
+
+.featured {
+    padding: 200;
+}
+.feat-con1{
+    text-align: center;
+   
+
+}
+.sec1-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+.featured p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 30px;
+}
+.featured img {
+    width: 210px;
+    height: 328px;
+    padding: 100px 30px 0px 30px;
+}
+.featured a {
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+}
+.feat-con2{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+   
+}
+
+.img1-back {
+    width: 510px;
+    height: 728px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.img2-back {
+    width: 510px;
+    height: 728px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.img3-back {
+    width: 510px;
+    height: 728px;
+    border-radius: 300px 300px 0px 0px;
+    background:  rgba(71, 125, 17, 0.15);
+}
+
+.section3 {
+    padding: 20px 20px 2px 100px;
+    display: flex;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    text-align: center;
+}
+ .sec3-picture {
+    width: 300px;
+    height: 400px;
+    padding-right: 200px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+ }
+ .section3 p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+
+    font-weight: 400;
+    line-height: 30px;
+ }
+
+ .instra{
+     text-align: center;
+ }
+ .instra-title{
+    
+ }
+ .instra img {
+    width: 250px;
+    height: 300spx;
+    gap: 50%;
+    padding: 30px 15px 50px 0px;
+ }
+ .instra-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800px;
+
+ }
+ .instra p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+
+    font-weight: 400;
+    line-height: 30px;
+ }
