@@ -1,3 +1,66 @@
-p {
-    color: blue;
+
+/* shared style */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #E55473;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 30px;
+
+}
+nav {
+    display:flex;
+    justify-content:space-between ;
+    align-items: center;
+    margin: 0 100px;
+}
+.nav-title{
+
+    color: pink;
+    font-size: 40px;
+    font-weight: 100px;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color:rgba(39, 39, 39, 0.60);
+
+}
+
+/* header style */
+
+.header{
+
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner{
+    padding: 20px 20px 2px 100px;
+    display: flex;
+    align-items: center;
+}
+.banner .main-picture {
+    width: 500px;
+    height: 700px;
+}
+.banner-title{
+    color: #272727;
+    font-size: 60px;
+    font-weight: 400px;
+
 }
